@@ -28,7 +28,7 @@ public class DownloadingServlet extends HttpServlet
             URL url = new URI("https://speed.hetzner.de/100MB.bin").toURL();
             URLConnection connection = url.openConnection();
             InputStream inputStream = connection.getInputStream();
-            //copying to local
+            //sending to browser
             IOUtils.copy(inputStream, resp.getOutputStream());
         }
         catch (URISyntaxException e)
