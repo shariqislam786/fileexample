@@ -10,4 +10,4 @@ the address will be http://localhost:8080/fileexample-1.0/downloadingServletServ
 
 I have added two sysouts in the sever download version, you can see in tomcat folder in logs/catalina.log that it spends most of its time in downloading the file locally.
 
-you can rebuild the war using maven by specifying mvn clean package
+you can rebuild the war using maven by specifying command: mvn clean package
