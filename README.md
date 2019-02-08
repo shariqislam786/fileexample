@@ -9,3 +9,5 @@ the address will be http://localhost:8080/fileexample-1.0/downloadingServletServ
  http://localhost:8080/fileexample-1.0/downloadingServlet for direct download. the url can change if you tomcat runs on different port or your context name is different(determined by your war name of you can set that in your ide)
 
 I have added two sysouts in the sever download version, you can see in tomcat folder in logs/catalina.log that it spends most of its time in downloading the file locally.
+
+you can rebuild the war using maven by specifying mvn clean package
